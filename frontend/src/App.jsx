@@ -6,6 +6,7 @@ function App() {
     // ✅ connect manually
     socket.connect();
 
+    // Socket.IO setup completed
     // ✅ connection logs
     socket.on("connect", () => {
       console.log("✅ Connected to server:", socket.id);
